@@ -1,0 +1,48 @@
+/******************** header*********************/
+.header {
+    background-color: #184e77;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-shadow: 2px 2px 2px white;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/**********************nav*****************/
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e6091;
+    list-style: none;
+    width: 1100px;
+}
+
+li a {
+    display: inline;
+    font-size: xx-large;
+    text-decoration: none;
+    color: grey;
+    text-shadow: 2px 2px 2px black;
+    margin: 20px;
+
+}
+
+li a:hover {
+    color: black;
+}
+
+img {
+    width: 100px;
+}
